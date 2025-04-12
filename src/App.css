@@ -146,6 +146,13 @@ input:focus, textarea:focus, select:focus {
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 430px) {
+  .box1 {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+}
 
 
 .scrolled {
