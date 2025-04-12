@@ -19,7 +19,7 @@ export const Banner = () => {
                     <br></br><br></br>Currently, I’m conducting cheminformatics and machine learning research, applying clustering analysis and large language models to uncover insights in molecular data. 
                     I enjoy combining technical knowledge relating to quantum physics with scientific curiosity to contribute to meaningful research and innovation.</p>
                   <div className="info">
-                    <a href=`${process.env.PUBLIC_URL}/resume.pdf` target="_blank" rel="noopener noreferrer" className="a a2 one"> Resume <ArrowRightCircle size={25} /></a>
+                    <a href="https://alyssavmeczkowska.github.io/personal-site/resume.pdf" target="_blank" rel="noopener noreferrer" className="a a2 one"> Resume <ArrowRightCircle size={25} /></a>
                     <a href="mailto:alyssa.meczkowska@gmail.com" className="a a2 two"> Contact<ArrowRightCircle size={25} /></a>
                   </div>
                 </div>
