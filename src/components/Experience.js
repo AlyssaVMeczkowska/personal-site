@@ -2,7 +2,7 @@ export const Experience = () => {
 
   return (
     <section className="experiences" id="experience">      
-    <h2>Experience</h2>
+    <h2>Professional Experience</h2>
       <div class="container">
          <div class="card">
             <div class="box">
