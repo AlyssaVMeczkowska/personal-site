@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.225cc2d2.css",
-    "main.js": "/static/js/main.e6c72071.js",
+    "main.js": "/static/js/main.ff82c07d.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/Alyssa Meczkowska Resume.pdf": "/static/media/Alyssa Meczkowska Resume.74b2da9e76e10d8e933c.pdf",
     "static/media/test5.jpg": "/static/media/test5.67d45bc4f4c1538274f3.jpg",
@@ -19,11 +19,11 @@
     "static/media/typescript.svg": "/static/media/typescript.d357eb413325f17ff6fa76d7a70ced86.svg",
     "index.html": "/index.html",
     "main.225cc2d2.css.map": "/static/css/main.225cc2d2.css.map",
-    "main.e6c72071.js.map": "/static/js/main.e6c72071.js.map",
+    "main.ff82c07d.js.map": "/static/js/main.ff82c07d.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.225cc2d2.css",
-    "static/js/main.e6c72071.js"
+    "static/js/main.ff82c07d.js"
   ]
 }
