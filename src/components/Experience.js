@@ -28,7 +28,7 @@ export const Experience = () => {
           <div class="box">
             <div class="content">
             <h2>Vázquez Group | Mar '25 – Present</h2>
-            <h3>Cheminformatics Research Assistant/h3>
+            <h3>Cheminformatics Research Assistant</h3>
             <p>Computing quantum chemistry descriptors for 1K+ molecules and trained Random Forest/XGBoost models (R² = 0.71) to predict keto–enol equilibrium constants, funded by the Clare Boothe Luce award</p>
             </div>
          </div>
