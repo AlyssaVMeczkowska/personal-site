@@ -19,7 +19,7 @@ export const Banner = () => {
                   <br></br><br></br> Currently, I’m conducting research in cheminformatics, clinical NLP, and quantum computing, applying clustering methods, transformer models, and cryptographic frameworks to extract insights from scientific and medical data. 
                   I enjoy combining technical depth with curiosity to drive innovation and build inclusive, research-driven communities.</p>
                   <div className="info">
-                  <a href="Resume_AM.pdf" target="_blank" rel="noopener noreferrer" className="a a2 one"> Resume <ArrowRightCircle size={25} /></a>
+                  <a href="Alyssa Meczkowska Resume.pdf" target="_blank" rel="noopener noreferrer" className="a a2 one"> Resume <ArrowRightCircle size={25} /></a>
                     <a href="mailto:alyssa.meczkowska@gmail.com" className="a a2 two"> Contact<ArrowRightCircle size={25} /></a>
                   </div>
                 </div>
