@@ -14,8 +14,8 @@ export const NavBar = () => {
     <>
       <nav id="nav" className={scrolled ? "scrolled" : ""}>
         <a href="#home">Home</a>
-        <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
         {/* <a href="#projects">Projects</a> */}
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alyssa-meczkowska/">LinkedIn</a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlyssaVMeczkowska/">Github</a>
@@ -26,8 +26,8 @@ export const NavBar = () => {
         <button className="hamburger-button" onClick={() => setIsOpen(prev => !prev)}>☰</button>
         <div className={`nav-links ${isOpen ? "open" : ""}`}>
           <a href="#home">Home</a>
-          <a href="#skills">Skills</a>
           <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alyssa-meczkowska/">LinkedIn</a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlyssaVMeczkowska/">Github</a>

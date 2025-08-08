@@ -2,7 +2,7 @@ export const Experience = () => {
 
   return (
     <section className="experiences" id="experience">      
-    <h2>Professional Experience</h2>
+    <h2>Experience</h2>
       <div class="container">
          <div class="card">
             <div class="box">
@@ -22,8 +22,8 @@ export const Experience = () => {
             </div>
            </div>
           </div>
-        </div>
-      <div class="container">
+          </div>
+        <div class="container">
         <div class="card">
           <div class="box">
             <div class="content">
@@ -33,37 +33,17 @@ export const Experience = () => {
             </div>
          </div>
         </div>
-     <div class="card">
-          <div class="box">
-            <div class="content">
-              <h2>ACM Student Chapter | May '25 – Present</h2>
-              <h3>Social Media Coordinator</h3>
-              <p>Managing digital outreach for the ACM chapter, promoting technical events, fostering community engagement through social media, and collaborating with the executive board to support technical events, peer engagement, and community building</p>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="card">
-          <div class="box">
-            <div class="content">
-              <h2>Student Tech Governance | Oct '24 – Present</h2>
-              <h3>Governance Member</h3>
-              <p>Advocating for technology integration in student services and academic programs, collaborates with faculty and administration to evaluate and improve campus technologies, and represents student perspectives in university-wide IT decision-making and planning efforts</p>
-            </div>
-          </div>
-        </div>
         <div class="card">
               <div class="box">
                 <div class="content">
-                  <h2>Daisy Property Management | May '25 – Aug '25</h2>
+                  <h2>Daisy | May '25 – Aug '25</h2>
                   <h3>Operations Intern</h3>
                   <p>Developed API-driven workflow automations processing 5K+ documents, cutting processing time by 95% and reducing manual intervention from 3 days to under 5 minutes</p>
                 </div>
               </div>
             </div>
-       </div>
-      <div class="container">
+            </div>
+                <div class="container">
         <div class="card">
             <div class="box">
               <div class="content">
@@ -81,6 +61,27 @@ export const Experience = () => {
               <p>Tutored high school students one-on-one in person and virtually during COVID-19, 
                   prepared students for tests by identifying and improving development areas, and 
                    created practice problems based on specific subject matter</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 className="gap">Leadership Experience</h2>
+      <div class="container">
+       <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>ACM Student Chapter | May '25 – Present</h2>
+              <h3>Social Media Coordinator</h3>
+              <p>Managing digital outreach for the ACM chapter, promoting technical events, fostering community engagement through social media, and collaborating with the executive board to support technical events, peer engagement, and community building</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>Student Tech Governance | Oct '24 – Present</h2>
+              <h3>Board Member</h3>
+              <p>Advocating for technology integration in student services and academic programs, collaborates with faculty and administration to evaluate and improve campus technologies, and represents student perspectives in university-wide IT decision-making and planning efforts</p>
             </div>
           </div>
         </div>
