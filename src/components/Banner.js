@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import self from "../assets/img/test5.jpg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
-import resume from "../assets/Alyssa Meczkowska Resume.pdf";
+import resume from "../assets/Alyssa_Meczkowska_Resume.pdf";
 
 export const Banner = () => {
 
