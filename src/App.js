@@ -17,8 +17,8 @@ function App() {
       <Banner />
       <Research />
       <Professional />
-      <Experience />
       <Skills />
+      <Experience />
       <Footer />
     </div>
   );

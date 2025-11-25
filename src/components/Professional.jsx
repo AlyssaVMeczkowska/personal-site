@@ -27,8 +27,8 @@ export const Professional = () => {
               <div className="timeline-text">
                 <div className="experience-header">
                   <div className="exp-title-group">
-                    <h3>Research Software Contributor</h3>
                     <span className="company-name">IBM Thomas J. Watson Research Center</span>
+                    <h3>Research Software Contributor</h3>
                   </div>
                   <span className="exp-date">November 2025 – Present</span>
                 </div>
@@ -47,6 +47,46 @@ export const Professional = () => {
             </div>
           </div>
         </div>
+        {/* MediCaddie */}
+        <div className="timeline-item">
+          <div className="timeline-marker"></div>
+          <div className="timeline-content">
+            <div className="timeline-flex-container">
+              <div className="timeline-image">
+                <img src={MediCaddie} alt="MediCaddie" />
+              </div>
+              <div className="timeline-text">
+                <div className="experience-header">
+                  <div className="exp-title-group">
+                    <span className="company-name">MediCaddie Technologies</span>
+                    <h3>Machine Learning Engineer</h3>
+                  </div>
+                  <span className="exp-date">November 2025 – Present</span>
+                </div>
+                <p className="exp-description">
+                  Designing and training ICD-10 and CPT prediction models using transformer-based embeddings, TF-IDF features, and structured EHR signals to automate clinical coding with high precision
+                </p>
+                <div className="experience-header">
+                  <div className="exp-title-group">
+                    <h3>Software Engineer</h3>
+                  </div>
+                  <span className="exp-date">August 2025 – November 2025</span>
+                </div>
+                <p className="exp-description">
+                  Led full-stack development of clinician dashboard with React, Node.js, GraphQL, and SQL. 
+                </p>
+                <div className="exp-tags">
+                  <span className="tag">React</span>
+                  <span className="tag">Node.js</span>
+                  <span className="tag">GraphQL</span>
+                  <span className="tag">MySQL</span>
+                  <span className="tag">Neo4j</span>
+                  <span className="tag">Machine Learning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
          {/* Tutoring */}
         <div className="timeline-item">
           <div className="timeline-marker"></div>
@@ -58,8 +98,8 @@ export const Professional = () => {
               <div className="timeline-text">
                 <div className="experience-header">
                   <div className="exp-title-group">
-                    <h3>Computer Science Tutor</h3>
                     <span className="company-name">Collins College of Professional Studies</span>
+                    <h3>Computer Science Tutor</h3>
                   </div>
                   <span className="exp-date">September 2025 – Present</span>
                 </div>
@@ -76,41 +116,6 @@ export const Professional = () => {
             </div>
           </div>
         </div>
-
-        {/* MediCaddie */}
-        <div className="timeline-item">
-          <div className="timeline-marker"></div>
-          <div className="timeline-content">
-            <div className="timeline-flex-container">
-              <div className="timeline-image">
-                <img src={MediCaddie} alt="MediCaddie" />
-              </div>
-              <div className="timeline-text">
-                <div className="experience-header">
-                  <div className="exp-title-group">
-                    <h3>Software Engineer</h3>
-                    <span className="company-name">MediCaddie Technologies</span>
-                  </div>
-                  <span className="exp-date">August 2025 – Present</span>
-                </div>
-                <p className="exp-description">
-                  Leading full-stack development of clinician dashboard with React, Node.js, GraphQL, and SQL. 
-                  Integrating ML models for ICD-10/CPT code prediction and building scalable infrastructure with 
-                  MySQL, Neo4j, and Milvus.
-                </p>
-                <div className="exp-tags">
-                  <span className="tag">React</span>
-                  <span className="tag">Node.js</span>
-                  <span className="tag">GraphQL</span>
-                  <span className="tag">MySQL</span>
-                  <span className="tag">Neo4j</span>
-                  <span className="tag">Machine Learning</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Daisy */}
         <div className="timeline-item">
           <div className="timeline-marker"></div>
@@ -122,8 +127,8 @@ export const Professional = () => {
               <div className="timeline-text">
                 <div className="experience-header">
                   <div className="exp-title-group">
+                                        <span className="company-name">Daisy Property Management</span>
                     <h3>Automation Engineering Intern</h3>
-                    <span className="company-name">Daisy Property Management</span>
                   </div>
                   <span className="exp-date">May 2025 – August 2025</span>
                 </div>
@@ -152,8 +157,8 @@ export const Professional = () => {
               <div className="timeline-text">
                 <div className="experience-header">
                   <div className="exp-title-group">
+                                        <span className="company-name">University Learning Commons</span>
                     <h3>Computer Science and Math Tutor</h3>
-                    <span className="company-name">University Learning Commons</span>
                   </div>
                   <span className="exp-date">October 2024 – May 2025</span>
                 </div>

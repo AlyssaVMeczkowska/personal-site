@@ -17,7 +17,6 @@ export const Research = () => {
         <div className="project-header">
           <div className="project-meta">
             <span className="project-institution">Bukhari Lab</span>
-            <span className="project-date">April 2025 – Present</span>
           </div>
           <h3 className="project-title">A Machine Learning Framework for Clinician Burnout Detection</h3>
           <p className="project-role">Machine Learning Research Assistant</p>
@@ -67,7 +66,6 @@ export const Research = () => {
         <div className="project-header">
           <div className="project-meta">
             <span className="project-institution">Vázquez Group</span>
-            <span className="project-date">March 2025 – Present</span>
           </div>
           <h3 className="project-title">Predictive Modeling of Keto-Enol Tautomerization</h3>
           <p className="project-role">Machine Learning Research Assistant</p>
@@ -122,7 +120,6 @@ export const Research = () => {
         <div className="project-header">
           <div className="project-meta">
             <span className="project-institution">Collins College of Professional Studies</span>
-            <span className="project-date">May 2025 – Present</span>
           </div>
           <h3 className="project-title">Quantum Machine Learning for Vehicular Network Security</h3>
           <p className="project-role">Quantum Machine Learning Research Assistant</p>
