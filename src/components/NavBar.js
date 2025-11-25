@@ -14,11 +14,14 @@ export const NavBar = () => {
     <>
       <nav id="nav" className={scrolled ? "scrolled" : ""}>
         <a href="#home">Home</a>
+        <a href="#research">Research</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        {/* <a href="#projects">Projects</a> */}
+         <a href="#leadership">Involvement</a>
+        <a href="#contacts">Skills</a>
+        {/* <a href="#projects">Projects</a> 
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alyssa-meczkowska/">LinkedIn</a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlyssaVMeczkowska/">Github</a>
+        */}
         <div id="indicator"></div>
       </nav>
 

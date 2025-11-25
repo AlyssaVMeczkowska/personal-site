@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import self from "../assets/img/test5.jpg";
+import self from "../assets/img/Headshot_AM-min.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import resume from "../assets/Alyssa_Meczkowska_Resume.pdf";
@@ -16,12 +16,14 @@ export const Banner = () => {
               <img src={self} alt="Header Img"/></div>    
               <Container>
                 <div className="spacing">
-                  <p id="spacing">I’m a fourth-year Computer Science student at St. John’s University specializing in machine learning applications across biomedical AI, cheminformatics, and quantum computing.
-<br></br><br></br>My work includes building regression, ensemble, and clustering models for chemical property prediction, fine-tuning transformer architectures such as BioBERT on large-scale clinical datasets, and applying ML-driven benchmarking to hybrid Kyber/Dilithium PQC with BB84 QKD in high-mobility vehicular networks.
-I’m always open to collaborating with researchers and practitioners interested in applying advanced machine learning to complex, interdisciplinary problems.</p>
+                  <p id="spacing">I’m a fourth-year Computer Science undergraduate student at St. John’s University, conducting research in both classical and quantum machine learning.
+
+<br></br><br></br>My work includes developing quantum kernel methods and QSVM-based anomaly detection for vehicular networks, building regression and clustering models for chemical property prediction, and fine-tuning transformer architectures like BioBERT on large-scale MIMIC-IV clinical notes for clinician burnout detection. I’m always open to collaborating with researchers and practitioners interested in applying advanced machine learning to complex problems.</p>
                   <div className="info">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alyssa-meczkowska/" className="a a2 one">LinkedIn<ArrowRightCircle size={25} /></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlyssaVMeczkowska/" className="a a2 one">Github<ArrowRightCircle size={25} /></a>
                   <a href={resume} target="_blank" rel="noopener noreferrer" className="a a2 one"> Resume <ArrowRightCircle size={25} /></a>
-                    <a href="mailto:alyssa.meczkowska@gmail.com" className="a a2 two"> Contact<ArrowRightCircle size={25} /></a>
+                    <a href="mailto:alyssa.meczkowska@gmail.com" className="a a2 two">  Email <ArrowRightCircle size={25} /></a>
                   </div>
                 </div>
               </Container>
