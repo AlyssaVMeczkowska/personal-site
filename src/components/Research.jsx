@@ -8,7 +8,7 @@ export const Research = () => {
       <div className="section-header">
         <h2>Recent Research</h2>
         <p className="section-subtitle">
-          Advancing machine learning at the intersection of quantum computing, healthcare AI, and computational chemistry
+          Advancing machine learning at the intersection of quantum computing, healthcare AI, and computational chemistry.
         </p>
       </div>
 
