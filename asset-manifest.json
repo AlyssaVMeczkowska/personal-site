@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.83468084.css",
-    "main.js": "/static/js/main.69e34558.js",
+    "main.css": "/static/css/main.c18b479f.css",
+    "main.js": "/static/js/main.7f41cb94.js",
     "static/js/453.b03e3c98.chunk.js": "/static/js/453.b03e3c98.chunk.js",
-    "static/media/Headshot_AM-min.png": "/static/media/Headshot_AM-min.60685924a4cbcf4e4116.png",
     "static/media/quantumML.png": "/static/media/quantumML.44fcdff47ebc67d2a2fa.png",
+    "static/media/Headshot_AM.JPEG": "/static/media/Headshot_AM.a0d8a91f8eae960036df.JPEG",
     "static/media/paper.png": "/static/media/paper.2a46547952058089ddd1.png",
     "static/media/poster.png": "/static/media/poster.bd8fabfe6f47ade7b104.png",
     "static/media/SJU.png": "/static/media/SJU.53747bec44a1668cf88e.png",
     "static/media/CodePath_Logo.png": "/static/media/CodePath_Logo.db79431da5bc905b0614.png",
     "static/media/Google.png": "/static/media/Google.01f10d65359feca7b23c.png",
-    "static/media/Alyssa_Meczkowska_Resume.pdf": "/static/media/Alyssa_Meczkowska_Resume.8507332bf967f671243b.pdf",
+    "static/media/Alyssa_Meczkowska_Resume.pdf": "/static/media/Alyssa_Meczkowska_Resume.744404c2da9fcb851476.pdf",
     "static/media/psi4.png": "/static/media/psi4.feb4de7322bbcc773a72.png",
     "static/media/GWC.png": "/static/media/GWC.9b9f22987cb68a384496.png",
     "static/media/qiskit.png": "/static/media/qiskit.8d2a24b4999fcf633e57.png",
@@ -42,12 +42,12 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/typescript.svg": "/static/media/typescript.d357eb413325f17ff6fa76d7a70ced86.svg",
     "index.html": "/index.html",
-    "main.83468084.css.map": "/static/css/main.83468084.css.map",
-    "main.69e34558.js.map": "/static/js/main.69e34558.js.map",
+    "main.c18b479f.css.map": "/static/css/main.c18b479f.css.map",
+    "main.7f41cb94.js.map": "/static/js/main.7f41cb94.js.map",
     "453.b03e3c98.chunk.js.map": "/static/js/453.b03e3c98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83468084.css",
-    "static/js/main.69e34558.js"
+    "static/css/main.c18b479f.css",
+    "static/js/main.7f41cb94.js"
   ]
 }
