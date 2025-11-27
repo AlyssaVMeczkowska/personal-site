@@ -113,7 +113,7 @@ nav a:nth-child(6):hover ~ #indicator {
 
 .scrolled {
   background-color: #f1f1f1af;
-  border-bottom: 1px solid rgba(227, 255, 254, 0.655);
+  border-bottom: 1px solid rgba(215, 215, 215, 0.655);
   width: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
