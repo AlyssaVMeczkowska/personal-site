@@ -53,10 +53,16 @@ export const Research = () => {
               <span className="tech-tag">PyTorch</span>
             </div>
 
-            <div className="publication-badge">
-              <span className="badge-icon"></span>
-              <span className="badge-text">Published at IEEE ICMLA 2025</span>
-            </div>
+            <a 
+              href="https://arxiv.org/pdf/2509.04497" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+          <div className="publication-badge">
+            <span className="badge-text">Published at IEEE ICMLA 2025</span>
+          </div>
+        </a>
           </div>
         </div>
       </div>
@@ -102,14 +108,26 @@ export const Research = () => {
               <span className="tech-tag">scikit-learn</span>
             </div>
 
-            <div className="award-badge">
-              <span className="badge-icon"></span>
-              <span className="badge-text">Presented at MERCURY 2025</span>
-            </div>
-            <div className="award-badge">
-              <span className="badge-icon"></span>
-              <span className="badge-text">CBL Summer Research Award</span>
-            </div>
+            <a 
+              href="https://www.mercuryconsortium.org/conference-2025/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+          <div className="publication-badge">
+            <span className="badge-text">Presented at Mercury 2025</span>
+          </div>
+        </a>
+            <a 
+              href="https://hluce.org/programs/clare-boothe-luce/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+          <div className="publication-badge">
+            <span className="badge-text">CBL Summer Research Award</span>
+          </div>
+        </a>
             
           </div>
         </div>

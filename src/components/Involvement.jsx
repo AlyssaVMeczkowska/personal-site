@@ -4,7 +4,7 @@ import GWC from '../assets/img/GWC.png';
 import ACM from '../assets/img/ACM.png';
 import SJU from '../assets/img/SJU.png';
 
-export const Experience = () => {
+export const Involvement = () => {
 
   return (
     <>
@@ -72,7 +72,8 @@ export const Experience = () => {
               <p>Advocating for technology integration in student services and academic programs, collaborates with faculty and administration to evaluate and improve campus technologies, and represents student perspectives in university-wide IT decision-making and planning efforts</p>
             </div>
           </div>
-           {/* 
+           
+           {/*
           <div className="exp-card">
             <div className="exp-card-image">
               <div className="placeholder-img">🖥️</div>
@@ -82,9 +83,10 @@ export const Experience = () => {
               <h3>STJ CyberStorm</h3>
               <p>Competing on the red team in collegiate cybersecurity exercises, practicing offensive security techniques such as recon, exploitation, and post-exploitation while collaborating with teammates to break into hardened, simulated environments. Recently won $2,000 with a fellow competitor at the Hofstra-Amazon CTF.</p>
             </div>
-          </div> */}
+          </div> 
+          </section>
+           */}
         </div>
-
       </section>
     </>
   )
