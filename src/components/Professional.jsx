@@ -3,6 +3,7 @@ import MediCaddie from "../assets/img/mc.png";
 import Daisy from "../assets/img/joindaisy_logo.jpeg";
 import ULC from "../assets/img/ULC.png";
 import CCPS from "../assets/img/CCPS.jpg";
+import './Professional.css'
 
 export const Professional = () => {
   return (
@@ -16,6 +17,12 @@ export const Professional = () => {
 
       <div className="timeline">
         {/* IBM Research */}
+        <a 
+              href="https://research.ibm.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
         <div className="timeline-item">
           <div className="timeline-marker"></div>
           <div className="timeline-content">
@@ -47,7 +54,14 @@ export const Professional = () => {
             </div>
           </div>
         </div>
+        </a>
         {/* MediCaddie */}
+        <a 
+              href="https://medicaddie.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
         <div className="timeline-item">
           <div className="timeline-marker"></div>
           <div className="timeline-content">
@@ -87,6 +101,13 @@ export const Professional = () => {
             </div>
           </div>
         </div>
+        </a>
+        <a 
+              href="https://www.stjohns.edu/academics/schools/college-professional-studies" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
          {/* Tutoring */}
         <div className="timeline-item">
           <div className="timeline-marker"></div>
@@ -116,7 +137,14 @@ export const Professional = () => {
             </div>
           </div>
         </div>
+        </a>
         {/* Daisy */}
+         <a 
+              href="https://www.joindaisy.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
         <div className="timeline-item">
           <div className="timeline-marker"></div>
           <div className="timeline-content">
@@ -145,7 +173,14 @@ export const Professional = () => {
             </div>
           </div>
         </div>
+        </a>
 
+            <a 
+              href="https://www.stjohns.edu/life-st-johns/student-success/university-learning-commons" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
         {/* University Learning Commons */}
         <div className="timeline-item">
           <div className="timeline-marker"></div>
@@ -175,6 +210,7 @@ export const Professional = () => {
             </div>
           </div>
         </div>
+        </a>
       </div>
     </section>
   )

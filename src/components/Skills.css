@@ -1,0 +1,109 @@
+.skill {
+  padding-top: 2%;
+  position: relative;
+}
+
+.skill-bx {
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+  margin-bottom: 70px;
+}
+
+.skill h2 {
+  font-size: 45px;
+  font-family: 'Centra', sans-serif !important;
+  font-weight: 500;
+}
+
+.skill p {
+  color: #202020;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(216, 216, 216, 0.4);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.172);
+  background-color: rgba(255, 255, 255, 0.38);
+  transition: all 0.3s ease;
+}
+
+.skill-slider .item img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+
+/* Carousel arrows */
+.skill-slider .react-multiple-carousel__arrow {
+  background: transparent !important;
+  border: none !important;
+  min-width: 40px !important;
+  min-height: 40px !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  z-index: 10 !important;
+}
+
+.skill-slider .react-multiple-carousel__arrow::before {
+  color: #2c2c2c !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+}
+
+.skill-slider .react-multiple-carousel__arrow:hover::before {
+  color: #000000 !important;
+}
+
+.skill-slider .react-multiple-carousel__arrow--left {
+  left: 10px !important;
+}
+
+.skill-slider .react-multiple-carousel__arrow--right {
+  right: 10px !important;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .skill {
+    padding-top: 50px;
+  }
+
+  .skill h2 {
+    font-size: 36px !important;
+  }
+
+  .skill p {
+    font-size: 16px !important;
+    margin: 14px 0 50px 0 !important;
+  }
+
+  .skill-slider {
+    width: 95% !important;
+  }
+
+  .skill-bx {
+    padding: 40px 20px !important;
+  }
+}

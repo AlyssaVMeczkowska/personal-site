@@ -19,6 +19,7 @@ import ScikitLearn from "../assets/img/scikit-learn.png";
 import SpaCy from "../assets/img/spacy.png";
 import Psi4 from "../assets/img/psi4.png";
 import RdKit from "../assets/img/rdkit.png";
+import './Skills.css'
 
 export const Skills = () => {
   const responsive = {

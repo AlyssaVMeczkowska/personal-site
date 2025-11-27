@@ -3,6 +3,7 @@ import self from "../assets/img/Headshot_AM.JPEG";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import resume from "../assets/Alyssa_Meczkowska_Resume.pdf";
+import './Banner.css'
 
 export const Banner = () => {
 

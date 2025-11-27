@@ -3,6 +3,7 @@ import CodePath from '../assets/img/CodePath_Logo.png';
 import GWC from '../assets/img/GWC.png';
 import ACM from '../assets/img/ACM.png';
 import SJU from '../assets/img/SJU.png';
+import './Involvement.css'
 
 export const Involvement = () => {
 
@@ -17,6 +18,12 @@ export const Involvement = () => {
         </p>
       </div>
         <div className="experience-grid">
+          <a 
+              href="https://gdg.community.dev/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
           <div className="exp-card">
             <div className="exp-card-image">
               <img src={Google} className="placeholder-img"></img>
@@ -27,7 +34,14 @@ export const Involvement = () => {
               <p>Coordinating workshops, speaker events, and developer meetups that bring together students and industry professionals to explore modern Google technologies and help build a sustained developer community on campus.</p>
             </div>
           </div>
+          </a>
 
+          <a 
+              href="https://www.codepath.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
           <div className="exp-card">
             <div className="exp-card-image">
               <img src={CodePath} className="placeholder-img"></img>
@@ -38,8 +52,15 @@ export const Involvement = () => {
               <p>Supported introductory programming cohorts by answering questions, walking students through resuming building sessions, and providing mentorship advice to help advance their career goals.</p>
             </div>
           </div>
+          </a>
 
 
+           <a 
+              href="https://girlswhocode.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
           <div className="exp-card">
             <div className="exp-card-image">
               <img src={GWC} className="placeholder-img"></img>
@@ -50,7 +71,14 @@ export const Involvement = () => {
               <p>Managing the chapter’s budget, track expenses, and coordinate funding requests, ensuring we can run workshops, speaker events, and community-building activities that support women and nonbinary students in computing.</p>
             </div>
           </div>
+          </a>
 
+              <a 
+              href="https://www.sjuacm.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
           <div className="exp-card">
             <div className="exp-card-image">
               <img src={ACM} className="placeholder-img"></img>
@@ -61,7 +89,14 @@ export const Involvement = () => {
               <p>Managing digital outreach for the ACM chapter, promoting technical events, fostering community engagement through social media, and collaborating with the executive board to support technical events, peer engagement, and community building</p>
             </div>
           </div>
+          </a>
 
+            <a 
+              href="https://www.stjohns.edu/office-information-technology" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
            <div className="exp-card">
             <div className="exp-card-image">
               <img src={SJU} className="placeholder-img"></img>
@@ -72,6 +107,8 @@ export const Involvement = () => {
               <p>Advocating for technology integration in student services and academic programs, collaborates with faculty and administration to evaluate and improve campus technologies, and represents student perspectives in university-wide IT decision-making and planning efforts</p>
             </div>
           </div>
+          </a>
+         
            
            {/*
           <div className="exp-card">

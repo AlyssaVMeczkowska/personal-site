@@ -1,6 +1,7 @@
 import Paper from '../assets/img/paper.png';
 import Poster from '../assets/img/poster.png';
 import Quantum from '../assets/img/quantumML.png';
+import './Research.css'
 
 export const Research = () => {
   return (
@@ -12,6 +13,12 @@ export const Research = () => {
         </p>
       </div>
 
+              <a 
+              href="https://bukharilab.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
       {/* Clinical NLP Research */}
       <div className="research-project featured">
         <div className="project-header">
@@ -66,8 +73,15 @@ export const Research = () => {
           </div>
         </div>
       </div>
+      </a>
 
       {/* Computational Chemistry Research */}
+      <a 
+              href="https://sites.google.com/view/vazquez-group" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
       <div className="research-project featured">
         <div className="project-header">
           <div className="project-meta">
@@ -132,8 +146,15 @@ export const Research = () => {
           </div>
         </div>
       </div>
+      </a>
 
       {/* Quantum ML Research */}
+      <a 
+              href="https://www.stjohns.edu/academics/schools/college-professional-studies" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
       <div className="research-project featured">
         <div className="project-header">
           <div className="project-meta">
@@ -180,6 +201,7 @@ export const Research = () => {
           </div>
         </div>
       </div>
+      </a>
     </section>
   )
 }
