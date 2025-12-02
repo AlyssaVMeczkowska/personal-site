@@ -3,6 +3,7 @@ import CodePath from '../assets/img/CodePath_Logo.png';
 import GWC from '../assets/img/GWC.png';
 import ACM from '../assets/img/ACM.png';
 import SJU from '../assets/img/SJU.png';
+import Cyberstorm from '../assets/img/Cyberstorm.png';
 import './Involvement.css'
 
 export const Involvement = () => {
@@ -26,7 +27,7 @@ export const Involvement = () => {
             >
           <div className="exp-card">
             <div className="exp-card-image">
-              <img src={Google} className="placeholder-img"></img>
+              <img src={Google}></img>
             </div>
             <div className="exp-card-content">
               <span className="exp-date">Lead Organizer | Nov '25 – Present</span>
@@ -44,7 +45,7 @@ export const Involvement = () => {
             >
           <div className="exp-card">
             <div className="exp-card-image">
-              <img src={CodePath} className="placeholder-img"></img>
+              <img src={CodePath}></img>
             </div>
             <div className="exp-card-content">
               <span className="exp-date">Volunteer | Oct '25</span>
@@ -63,7 +64,7 @@ export const Involvement = () => {
             >
           <div className="exp-card">
             <div className="exp-card-image">
-              <img src={GWC} className="placeholder-img"></img>
+              <img src={GWC}></img>
             </div>
             <div className="exp-card-content">
               <span className="exp-date">Treasurer | Sep '25 – Present</span>
@@ -73,6 +74,17 @@ export const Involvement = () => {
           </div>
           </a>
 
+<div className="exp-card">
+            <div className="exp-card-image">
+              <img src={Cyberstorm}></img>
+            </div>
+            <div className="exp-card-content">
+              <span className="exp-date">Red Team Competitor | Oct '25 – Present</span>
+              <h3>STJ CyberStorm</h3>
+              <p>Competing on the St. John's University competitive cybersecurity red team, practicing offensive security techniques such as recon and exploitation, while collaborating with teammates to break into simulated environments. Recently won $2,000 with a fellow competitor at the Hofstra-Amazon CTF.</p>
+            </div>
+           
+        </div>
               <a 
               href="https://www.sjuacm.com/" 
               target="_blank" 
@@ -81,7 +93,7 @@ export const Involvement = () => {
             >
           <div className="exp-card">
             <div className="exp-card-image">
-              <img src={ACM} className="placeholder-img"></img>
+              <img src={ACM}></img>
             </div>
             <div className="exp-card-content">
               <span className="exp-date">Social Media Coordinator | May '25 – Present</span>
@@ -99,7 +111,7 @@ export const Involvement = () => {
             >
            <div className="exp-card">
             <div className="exp-card-image">
-              <img src={SJU} className="placeholder-img"></img>
+              <img src={SJU}></img>
             </div>
             <div className="exp-card-content">
               <span className="exp-date">Board Member | Oct '24 – Present</span>
@@ -109,20 +121,6 @@ export const Involvement = () => {
           </div>
           </a>
          
-           
-           {/*
-          <div className="exp-card">
-            <div className="exp-card-image">
-              <div className="placeholder-img">🖥️</div>
-            </div>
-            <div className="exp-card-content">
-              <span className="exp-date">Red Team Competitor | Oct '24 – Present</span>
-              <h3>STJ CyberStorm</h3>
-              <p>Competing on the red team in collegiate cybersecurity exercises, practicing offensive security techniques such as recon, exploitation, and post-exploitation while collaborating with teammates to break into hardened, simulated environments. Recently won $2,000 with a fellow competitor at the Hofstra-Amazon CTF.</p>
-            </div>
-          </div> 
-          </section>
-           */}
         </div>
       </section>
     </>
