@@ -76,7 +76,7 @@ export const Professional = () => {
                     <span className="company-name">MediCaddie Technologies</span>
                     <h3>Software Engineer</h3>
                   </div>
-                  <span className="exp-date">August 2025 – November 2025</span>
+                  <span className="exp-date">August 2025 – Present</span>
                 </div>
                 <p className="exp-description">
                   Lead full-stack development of clinician dashboard with React, Node.js, GraphQL, and SQL. Designing and training ICD-10 and CPT prediction models using transformer-based embeddings, TF-IDF features, and structured EHR signals to automate clinical coding with high precision.
