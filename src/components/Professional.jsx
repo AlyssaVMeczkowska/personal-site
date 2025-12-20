@@ -70,24 +70,16 @@ export const Professional = () => {
                 <img src={MediCaddie} alt="MediCaddie" />
               </div>
               <div className="timeline-text">
+                
                 <div className="experience-header">
                   <div className="exp-title-group">
                     <span className="company-name">MediCaddie Technologies</span>
-                    <h3>Machine Learning Engineer</h3>
-                  </div>
-                  <span className="exp-date">November 2025 – Present</span>
-                </div>
-                <p className="exp-description">
-                  Designing and training ICD-10 and CPT prediction models using transformer-based embeddings, TF-IDF features, and structured EHR signals to automate clinical coding with high precision
-                </p>
-                <div className="experience-header">
-                  <div className="exp-title-group">
                     <h3>Software Engineer</h3>
                   </div>
                   <span className="exp-date">August 2025 – November 2025</span>
                 </div>
                 <p className="exp-description">
-                  Led full-stack development of clinician dashboard with React, Node.js, GraphQL, and SQL. 
+                  Lead full-stack development of clinician dashboard with React, Node.js, GraphQL, and SQL. Designing and training ICD-10 and CPT prediction models using transformer-based embeddings, TF-IDF features, and structured EHR signals to automate clinical coding with high precision.
                 </p>
                 <div className="exp-tags">
                   <span className="tag">React</span>
