@@ -39,7 +39,7 @@ export const Footer = () => {
 
             {/* Copyright */}
             <p className="copyright">
-              Copyright ©2025 • Designed by Alyssa Meczkowska
+              Copyright ©2026 • Designed by Alyssa Meczkowska
             </p>
           </Col>
         </Row>

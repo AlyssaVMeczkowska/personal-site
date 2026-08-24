@@ -1,12 +1,14 @@
 .professional-section {
-  padding: 100px 5%;
+  padding: 50px 5%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .timeline {
   position: relative;
-  padding-left: 40px;
+  padding-left: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .timeline::before {
@@ -15,13 +17,13 @@
   left: 0;
   top: 0;
   bottom: 0;
-  width: 3px;
+  width: 2px;
   background: linear-gradient(180deg, rgb(44, 79, 119), #e0dedf);
 }
 
 .timeline-item {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   transition: all 0.3s ease;
 }
 
@@ -32,21 +34,21 @@
 
 .timeline-marker {
   position: absolute;
-  left: -47px;
+  left: -37px;
   top: 0;
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: rgb(44, 79, 119);
-  border: 4px solid rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 0 4px rgba(155, 157, 159, 0.2);
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 0 3px rgba(155, 157, 159, 0.2);
 }
 
 .timeline-content {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
-  padding: 30px;
-  border-radius: 20px;
+  padding: 30px 40px;
+  border-radius: 14px;
   border: 2px solid rgb(223, 223, 223);
   box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.172);
 }
@@ -55,90 +57,90 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .exp-title-group h3 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 500;
   color: #0a0a0a;
   margin-bottom: 0px;
 }
 
 .company-name {
-  font-size: 18px;
+  font-size: 17px;
   color: rgb(44, 79, 119);
-  font-weight: 600;
+  font-weight: 450;
 }
 
 .exp-date {
-  font-size: 14px;
+  font-size: 15px;
   color: rgba(0, 0, 0, 0.7);
   white-space: nowrap;
 }
 
 .exp-description {
-  font-size: 16px;
-  line-height: 1.7;
+  font-size: 15px;
+  line-height: 1.6;
   color: rgba(10, 9, 9, 0.85);
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .exp-highlights-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 20px;
+  gap: 6px;
+  margin-bottom: 12px;
 }
 
 .highlight {
-  font-size: 15px;
+  font-size: 13px;
   color: rgba(24, 24, 24, 0.8);
 }
 
 .exp-stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  margin: 20px 0;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
 }
 
 .stat-box {
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
+  border-radius: 8px;
   border: 1px solid rgb(44, 79, 119);
 }
 
 .stat-value {
   display: block;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   color: #2a2c2d;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .stat-label {
-  font-size: 13px;
+  font-size: 11px;
   color: rgba(42, 41, 41, 0.7);
 }
 
 .exp-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 15px;
+  gap: 6px;
+  margin-top: 10px;
 }
 
 .tag {
-  padding: 5px 14px;
+  padding: 4px 10px;
   background: rgb(44, 79, 119);
   border: 1px solid rgba(79, 172, 254, 0.3);
-  border-radius: 15px;
-  font-size: 12px;
+  border-radius: 12px;
+  font-size: 11px;
   font-weight: 600;
   color: #ffffff;
 }
@@ -146,33 +148,33 @@
 .exp-achievement {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  border-radius: 20px;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 16px;
   border: 2px solid rgb(44, 79, 119);
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .achievement-icon {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .achievement-text {
   font-weight: 600;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .timeline-flex-container {
   display: flex;
-  gap: 25px;
+  gap: 16px;
   align-items: flex-start;
 }
 
 .timeline-image {
   flex-shrink: 0;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,7 +185,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .timeline-text {
@@ -199,25 +201,25 @@
 }
 
 .experiences h2 {
-  font-size: 45px;
+  font-size: 35px;
   font-family: 'Centra', sans-serif !important;
   font-weight: 500;
   text-align: center;
   color: rgb(12, 12, 12);
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* increase this */
 }
 
 .experience-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 30px;
-  margin-top: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
 }
 
 .exp-card {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
-  border-radius: 20px;
+  border-radius: 14px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -227,14 +229,14 @@
 }
 
 .exp-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-8px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
   background: rgba(255, 255, 255, 0.25);
 }
 
 .exp-card-image {
   width: 100%;
-  height: 200px;
+  height: 130px;
   background: linear-gradient(135deg, rgba(168, 239, 255, 0.3), rgba(193, 252, 255, 0.3));
   display: flex;
   align-items: center;
@@ -250,28 +252,28 @@
 }
 
 .placeholder-img {
-  font-size: 60px;
+  font-size: 40px;
   opacity: 0.8;
 }
 
 .exp-card-content {
-  padding: 25px;
+  padding: 16px;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
 .exp-card-content h3 {
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 700;
   color: #1b1b1b;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   line-height: 1.3;
 }
 
 .exp-card-content p {
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 1.5;
   color: #2a2a2a;
   margin: 0;
   width: 100%;
@@ -280,19 +282,19 @@
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
   .professional-section {
-    padding: 50px 5%;
+    padding: 30px 5%;
   }
 
   .experiences {
-    padding: 50px 5% !important;
+    padding: 30px 5% !important;
   }
 
   .experiences h2 {
-    font-size: 36px !important;
+    font-size: 26px !important;
   }
 
   .timeline {
-    padding-left: 25px;
+    padding-left: 22px;
   }
 
   .timeline::before {
@@ -300,33 +302,33 @@
   }
 
   .timeline-marker {
-    left: -34px;
+    left: -30px;
   }
 
   .timeline-content {
-    padding: 20px;
+    padding: 14px;
   }
 
   .timeline-flex-container {
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
   }
 
   .timeline-image {
-    width: 80px !important;
-    height: 80px !important;
+    width: 60px !important;
+    height: 60px !important;
   }
 
   .exp-title-group h3 {
-    font-size: 20px !important;
-  }
-
-  .company-name {
     font-size: 16px !important;
   }
 
+  .company-name {
+    font-size: 13px !important;
+  }
+
   .exp-description {
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
 
   .exp-stats {
@@ -335,10 +337,10 @@
 
   .experience-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 14px;
   }
 
   .timeline-content {
-    padding: 15px;
+    padding: 12px;
   }
 }

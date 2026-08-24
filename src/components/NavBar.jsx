@@ -17,8 +17,8 @@ export const NavBar = () => {
         <a href="#home">Home</a>
         <a href="#research">Research</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#leadership">Involvement</a>
+        {/* <a href="#skills">Skills</a> */}
+        {/* <a href="#leadership">Involvement</a> */}
         <div id="indicator"></div>
       </nav>
 
@@ -28,8 +28,8 @@ export const NavBar = () => {
           <a href="#home" onClick={() => setIsOpen(false)}>Home</a>
           <a href="#research" onClick={() => setIsOpen(false)}>Research</a>
           <a href="#experience" onClick={() => setIsOpen(false)}>Experience</a>
-          <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
-          <a href="#leadership" onClick={() => setIsOpen(false)}>Involvement</a>
+         {/* <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>*/}
+          {/* <a href="#leadership" onClick={() => setIsOpen(false)}>Involvement</a> */}
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alyssa-meczkowska/">LinkedIn</a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlyssaVMeczkowska/">Github</a>
         </div>

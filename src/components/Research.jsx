@@ -1,208 +1,141 @@
+import Quantum from '../assets/img/quantumML.png';
 import Paper from '../assets/img/paper.png';
 import Poster from '../assets/img/poster.png';
-import Quantum from '../assets/img/quantumML.png';
-import './Research.css'
+import './Professional.css'
 
 export const Research = () => {
   return (
-    <section className="research-section" id="research">
+    <section className="experiences" id="research">
       <div className="section-header">
-        <h2>Recent Research</h2>
-        <p className="section-subtitle">
-          Advancing machine learning at the intersection of quantum computing, healthcare AI, and computational chemistry.
-        </p>
+        <h2>Research Experience</h2>
       </div>
 
-              <a 
-              href="https://bukharilab.org/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ textDecoration: 'none' }}
-            >
-      {/* Clinical NLP Research */}
-      <div className="research-project featured">
-        <div className="project-header">
-          <div className="project-meta">
-            <span className="project-institution">Bukhari Lab</span>
-          </div>
-          <h3 className="project-title">A Machine Learning Framework for Clinician Burnout Detection</h3>
-          <p className="project-role">Machine Learning Research Assistant</p>
-        </div>
-
-        <div className="project-content">
-          <div className="project-visual">
-  <img src={Paper} alt="BioBERT Fine-tuning" className="research-image" />
-</div>
-
-          <div className="project-details">
-            <p className="project-description">
-              Building end-to-end NLP pipelines to analyze 10,000+ MIMIC-IV clinical notes, uncovering 
-              linguistic patterns linked to psychological stress in ICU documentation. Published work 
-              accepted at IEEE ICMLA 2025.
-            </p>
-
-            <div className="project-highlights">
-              <div className="highlight-item">
-                <strong>Dataset:</strong> 10K+ MIMIC-IV clinical notes
-              </div>
-              <div className="highlight-item">
-                <strong>Performance:</strong> 0.84 F1 score on burnout detection
-              </div>
-              <div className="highlight-item">
-                <strong>Techniques:</strong> Sentiment analysis, NER, topic modeling
-              </div>
-            </div>
-
-            <div className="tech-stack">
-              <span className="tech-tag">BioBERT</span>
-              <span className="tech-tag">HuggingFace</span>
-              <span className="tech-tag">spaCy</span>
-              <span className="tech-tag">PyTorch</span>
-            </div>
-
-            <a 
-              href="https://arxiv.org/pdf/2509.04497" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ textDecoration: 'none' }}
-            >
-          <div className="publication-badge">
-            <span className="badge-text">Published at IEEE ICMLA 2025</span>
-          </div>
-        </a>
-          </div>
-        </div>
-      </div>
-      </a>
-
-      {/* Computational Chemistry Research */}
-      <a 
-              href="https://sites.google.com/view/vazquez-group" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ textDecoration: 'none' }}
-            >
-      <div className="research-project featured">
-        <div className="project-header">
-          <div className="project-meta">
-            <span className="project-institution">Vázquez Group</span>
-          </div>
-          <h3 className="project-title">Predictive Modeling of Keto-Enol Tautomerization</h3>
-          <p className="project-role">Machine Learning Research Assistant</p>
-        </div>
-
-        <div className="project-content reverse">
-          <div className="project-visual">
-  <img src={Poster} alt="cheminformatics poster" className="research-image" />
-</div>
-
-          <div className="project-details">
-            <p className="project-description">
-              Co-leading development of predictive ML framework integrating quantum chemistry descriptors 
-              with experimental data. Using ensemble methods and interpretability analysis to reveal 
-              structure-reactivity relationships in tautomeric equilibria.
-            </p>
-
-            <div className="project-highlights">
-              <div className="highlight-item">
-                <strong>Dataset:</strong> 1,000+ molecules with computed descriptors
-              </div>
-              <div className="highlight-item">
-                <strong>Models:</strong> Random Forest, XGBoost (R² = 0.71)
-              </div>
-              <div className="highlight-item">
-                <strong>Analysis:</strong> SHAP values, PCA, feature importance
-              </div>
-            </div>
-
-            <div className="tech-stack">
-              <span className="tech-tag">Psi4</span>
-              <span className="tech-tag">RDKit</span>
-              <span className="tech-tag">XGBoost</span>
-              <span className="tech-tag">scikit-learn</span>
-            </div>
-
-            <a 
-              href="https://www.mercuryconsortium.org/conference-2025/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ textDecoration: 'none' }}
-            >
-          <div className="publication-badge">
-            <span className="badge-text">Presented at Mercury 2025</span>
-          </div>
-        </a>
-            <a 
-              href="https://hluce.org/programs/clare-boothe-luce/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ textDecoration: 'none' }}
-            >
-          <div className="publication-badge">
-            <span className="badge-text">CBL Summer Research Award</span>
-          </div>
-        </a>
-            
-          </div>
-        </div>
-      </div>
-      </a>
-
-      {/* Quantum ML Research */}
-      <a 
+      <div className="timeline">
+        {/* AI Security Research Assistant */}
+        <a 
               href="https://www.stjohns.edu/academics/schools/college-professional-studies" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ textDecoration: 'none' }}
             >
-      <div className="research-project featured">
-        <div className="project-header">
-          <div className="project-meta">
-            <span className="project-institution">Collins College of Professional Studies</span>
-          </div>
-          <h3 className="project-title">Quantum Machine Learning for Vehicular Network Security</h3>
-          <p className="project-role">Quantum Machine Learning Research Assistant</p>
-        </div>
-
-        <div className="project-content">
-          <div className="project-visual">
-  <img src={Quantum} alt="QML" className="research-image" />
-</div>
-
-          <div className="project-details">
-            <p className="project-description">
-              Designing quantum-enhanced anomaly detection methods for vehicular network handshakes using 
-              variational quantum circuits and kernel methods. Exploring conditions where quantum advantage 
-              emerges in small, correlated security datasets.
-            </p>
-
-            <div className="project-highlights">
-              <div className="highlight-item">
-                <strong>Dataset:</strong> 500K+ computationally generated V2X handshakes
+        <div className="timeline-item">
+          <div className="timeline-marker"></div>
+          <div className="timeline-content">
+            <div className="timeline-flex-container">
+              {/* <div className="timeline-image">
+                <img src={Quantum} alt="Quantum ML / Network Security" />
+              </div> */}
+              <div className="timeline-text">
+                <div className="experience-header">
+                  <div className="exp-title-group">
+                    <span className="company-name">St. John's University</span>
+                    <h3>AI Security Research Assistant</h3>
+                  </div>
+                  <span className="exp-date">May 2025 – June 2026</span>
+                </div>
+                <p className="exp-description">
+                  Built a multi-component simulation system integrating three open-source frameworks (network
+                  emulation, traffic simulation, and cryptography) to generate a 500K+ sample labeled dataset
+                  across six network attack scenarios. Designed and evaluated a multi-model classification
+                  pipeline (Neural Network, Random Forest, XGBoost) achieving 0.968 AUC, significantly
+                  outperforming baseline detection methods.
+                </p>
+                <div className="exp-tags">
+                  <span className="tag">Neural Networks</span>
+                  <span className="tag">XGBoost</span>
+                  <span className="tag">Network Security</span>
+                  <span className="tag">Python</span>
+                </div>
               </div>
-              <div className="highlight-item">
-                <strong>Methods:</strong> Data re-uploading circuits, IQP maps, QSVMs
-              </div>
-              <div className="highlight-item">
-                <strong>Features:</strong> Timing jitter, RF entropy, certificate length
-              </div>
-            </div>
-
-            <div className="tech-stack">
-              <span className="tech-tag">Qiskit</span>
-              <span className="tech-tag">PennyLane</span>
-              <span className="tech-tag">scikit-learn</span>
-              <span className="tech-tag">Python</span>
-            </div>
-            <div className="award-badge">
-              <span className="badge-icon"></span>
-              <span className="badge-text">Manuscript in progress</span>
             </div>
           </div>
         </div>
+        </a>
+
+        {/* Bukhari Lab */}
+        <a 
+              href="https://bukharilab.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+        <div className="timeline-item">
+          <div className="timeline-marker"></div>
+          <div className="timeline-content">
+            <div className="timeline-flex-container">
+              {/* <div className="timeline-image">
+                <img src={Paper} alt="Bukhari Lab" />
+              </div> */}
+              <div className="timeline-text">
+                <div className="experience-header">
+                  <div className="exp-title-group">
+                    <span className="company-name">Bukhari Lab</span>
+                    <h3>AI/ML Research Assistant</h3>
+                  </div>
+                  <span className="exp-date">April 2025 – May 2026</span>
+                </div>
+                <p className="exp-description">
+                  Built an NLP classification model for clinical text, improving prediction accuracy through
+                  large-scale feature engineering and evaluation on a multi-million-row healthcare dataset.
+                  Co-authored two peer-reviewed publications (IEEE ICMLA, FLAIRS) on the resulting framework.
+                  Led full-stack development of an AI-powered medical billing platform: built a clinician-facing
+                  dashboard (React, Node.js, GraphQL, SQL) and an end-to-end RAG pipeline for information
+                  retrieval, deployed on AWS.
+                </p>
+                <div className="exp-tags">
+                  <span className="tag">BioBERT</span>
+                  <span className="tag">NLP</span>
+                  <span className="tag">React</span>
+                  <span className="tag">RAG</span>
+                  <span className="tag">AWS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </a>
+
+        {/* Vázquez Group */}
+        <a 
+              href="https://sites.google.com/view/vazquez-group" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+        <div className="timeline-item">
+          <div className="timeline-marker"></div>
+          <div className="timeline-content">
+            <div className="timeline-flex-container">
+              {/* <div className="timeline-image">
+                <img src={Poster} alt="Vázquez Group" />
+              </div> */}
+              <div className="timeline-text">
+                <div className="experience-header">
+                  <div className="exp-title-group">
+                    <span className="company-name">Vázquez Group</span>
+                    <h3>AI/ML Research Assistant</h3>
+                  </div>
+                  <span className="exp-date">March 2025 – May 2026</span>
+                </div>
+                <p className="exp-description">
+                  Built an ML framework to predict outcomes of organic chemical reactions from molecular data of
+                  200+ computationally generated molecules, using quantum chemistry computation libraries in
+                  Python. Trained ensemble models (Random Forest, XGBoost) achieving R² of 0.71 across a large
+                  dataset. Independently designed, wrote, and presented 3 research posters at academic
+                  conferences.
+                </p>
+                <div className="exp-tags">
+                  <span className="tag">Random Forest</span>
+                  <span className="tag">XGBoost</span>
+                  <span className="tag">Cheminformatics</span>
+                  <span className="tag">Python</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </a>
       </div>
-      </a>
     </section>
   )
 }
-
