@@ -71,31 +71,31 @@ nav a:hover:after {
 
 nav a:nth-child(1):hover ~ #indicator {
   background: linear-gradient(130deg, rgb(239, 235, 235), rgb(44, 79, 119));
-  left: 4%;
+  left: 9%;
   visibility: visible;
-  width: 12%;
+  width: 15%;
 }
 
 nav a:nth-child(2):hover ~ #indicator {
-  left: 24%;
+  left: 42%;
   background: linear-gradient(130deg, rgb(239, 235, 235), rgb(44, 79, 119));
   visibility: visible;
-  width: 12%;
+  width: 15%;
 }
 
 nav a:nth-child(3):hover ~ #indicator {
-  left: 44%;
+  left: 75%;
   background: linear-gradient(130deg, rgb(239, 235, 235), rgb(44, 79, 119));
   visibility: visible;
-  width: 12%;
+  width: 15%;
 }
 
-nav a:nth-child(4):hover ~ #indicator {
+/*nav a:nth-child(4):hover ~ #indicator {
   left: 64%;
   background: linear-gradient(130deg, rgb(239, 235, 235), rgb(44, 79, 119));
   visibility: visible;
   width: 12%;
-}
+
 
 nav a:nth-child(5):hover ~ #indicator {
   left: 84%;
@@ -110,6 +110,7 @@ nav a:nth-child(6):hover ~ #indicator {
   visibility: visible;
   width: 12%;
 }
+}*/
 
 .scrolled {
   background-color: #f1f1f1af;
