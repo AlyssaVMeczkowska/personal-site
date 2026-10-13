@@ -22,7 +22,8 @@ h1 {
   letter-spacing: 0.8px;
   line-height: 1.7em;
   width: 96%;
-  margin-top: 4%;
+  margin-top: 0;          /* was 4% — pushed text down */
+  margin-bottom: 1.5rem;  /* spacing above the links instead */
   max-width: 650px;
 }
 
@@ -62,11 +63,11 @@ h1 {
 .banner img {
   width: 300px;
   height: 300px;
-  display: fixed;
+  flex-shrink: 0;         /* replaces invalid "display: fixed" */
   align-self: center;
-  border-radius: 500px;
-  margin-top: 0;
-  margin-bottom: 0;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0;
 }
 
 #home {
@@ -85,7 +86,6 @@ h1 {
   font-size: 34px;
 }
 
-
 .a {
   text-decoration: none;
   color: #1b1b1b;
@@ -96,7 +96,7 @@ h1 {
   color: #1b1b1b;
   font-weight: 500;
   font-size: 16px;
-  margin-top: 4%;
+  margin-top: 0;          /* was 4% — added uneven space */
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
@@ -109,7 +109,7 @@ h1 {
 .alignment {
   display: inline-flex;
   margin: auto;
-  align-items: center; 
+  align-items: center;
   width: 100%;
 }
 
@@ -161,8 +161,8 @@ h1 {
   }
 
   .banner img {
-    display: block;      /* NEW */
-    margin: 0 auto;       /* NEW — centers the circular photo */
+    display: block;
+    margin: 0 auto;
   }
 
   .alignment {
@@ -187,7 +187,6 @@ h1 {
   }
 
   .banner p {
-    text-align: center;
     font-size: 14px !important;
     max-width: 100% !important;
     text-align: left;
@@ -215,15 +214,15 @@ h1 {
   }
 
   .banner .info {
-  display: flex;
-  align-self: center;
-  justify-self: center;
-  flex-direction: row !important;   /* CHANGED from column */
-  flex-wrap: nowrap;                 /* NEW */
-  justify-content: center;           /* NEW */
-  align-items: center !important;
-  gap: 12px;
-}
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center !important;
+    gap: 12px;
+  }
 
   .banner img {
     width: 220px !important;
@@ -237,35 +236,29 @@ h1 {
     max-height: 240px !important;
   }
 
-  .a2 {
-    width: 100%;
-    max-width: 240px;
-    justify-content: center;
-  }
-
   h1 {
     font-size: 26px !important;
     padding-top: 60px !important;
     width: 90% !important;
   }
 
-   .info {
-    display: flex !important;      /* CHANGED from grid */
-    flex-wrap: nowrap;              /* CHANGED — keep on one row */
-    justify-content: center;        /* NEW */
+  .info {
+    display: flex !important;
+    flex-wrap: nowrap;
+    justify-content: center;
     gap: 12px;
     width: 100%;
-    max-width: 420px;               /* CHANGED, adjust as needed */
+    max-width: 420px;
     margin: 0 auto;
   }
 
   .a2 {
-    width: auto;          /* CHANGED from 100% */
+    width: auto;
     max-width: none;
     justify-content: center;
-    font-size: 13px;      /* CHANGED slightly smaller so 3 fit */
+    font-size: 13px;
     padding: 10px 6px;
-    white-space: nowrap;  /* NEW — stops "LinkedIn" etc from wrapping mid-word */
+    white-space: nowrap;
   }
 
   .a2 svg {
@@ -289,10 +282,6 @@ h1 {
 }
 
 @media screen and (max-width: 500px) {
-  .h1 {
-    padding-top: 80px;
-  }
-
   h1 {
     font-size: 22px !important;
     padding-top: 45px !important;
@@ -330,5 +319,37 @@ h1 {
 
   .a2 {
     max-width: 240px;
+  }
+}
+
+/* Center photo on the paragraph only; links sit below without affecting centering */
+.spacing {
+  position: relative;
+}
+
+.banner #spacing {
+  margin: 0;              /* column height = exactly the paragraph */
+}
+
+.spacing .info {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 2.5rem;     /* gap between paragraph and links */
+}
+
+.alignment {
+  margin-bottom: 4rem;    /* room for the links so they don't overlap the next section */
+}
+
+/* Mobile: stacked layout, put links back in normal flow */
+@media screen and (max-width: 1010px) {
+  .spacing .info {
+    position: static;
+    margin-top: 1.5rem;
+  }
+
+  .alignment {
+    margin-bottom: 0;
   }
 }

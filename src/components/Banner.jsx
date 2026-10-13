@@ -17,9 +17,13 @@ export const Banner = () => {
               <img src={self} alt="Header Img"/>   
               <Container>
                 <div className="spacing">
-                  <p id="spacing">I’m an incoming master's student at Columbia University, studying Artificial Intelligence with a concentration in AI Infrastructure.
+                  <p id="spacing">I’m a master's student at Columbia University, studying Artificial Intelligence with a concentration in AI Infrastructure. My interests lie in AI security and reverse engineering.
 
-<br></br><br></br>My interests lie in AI security and reverse engineering. Outside of academics, I'm a competitive red teamer.<br></br><br></br></p>
+<br></br><br></br> I currently conduct vulnerability research at Columbia University with Professor Zhuo Zhang. 
+
+<br></br><br></br>  Outside of academics, I'm a competitive red teamer.
+
+</p>
                   <div className="info">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alyssa-meczkowska/" className="a a2 one">LinkedIn<ArrowRightCircle size={25} /></a>
                   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlyssaVMeczkowska/" className="a a2 one">Github<ArrowRightCircle size={25} /></a>

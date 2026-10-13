@@ -11,7 +11,56 @@ export const Research = () => {
       </div>
 
       <div className="timeline">
-        {/* AI Security Research Assistant */}
+        {/* Columbia – Decompilation Book */}
+<div className="timeline-item">
+  <div className="timeline-marker"></div>
+  <div className="timeline-content">
+    <div className="timeline-flex-container">
+      <div className="timeline-text">
+        <div className="experience-header">
+          <div className="exp-title-group">
+            <span className="company-name">Columbia University</span>
+            <h3>AI Security Research Intern</h3>
+          </div>
+          <span className="exp-date">Sep 2026 – Present</span>
+        </div>
+        <p className="exp-description">
+          Contributing to{' '}
+          <a
+            href="https://decompilation.education/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="exp-link"
+          >
+            Decompilation Book
+          </a>
+          , a “compiler course in reverse” built on{' '}
+          <a
+            href="https://github.com/ZhangZhuoSJTU/tiny-dec"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="exp-link"
+          >
+            tiny-dec
+          </a>
+          , an open-source educational decompiler (240+ GitHub stars) that turns RV32I binaries
+          into readable C through 19 inspectable pipeline stages. I write and expand chapters
+          walking readers through each stage, from instruction decoding and p-code lifting to
+          CFGs, SSA, and type recovery, pairing explanations with diagrams, review quizzes, and
+          hands-on tiny-dec exercises.
+        </p>
+        <div className="exp-tags">
+          <span className="tag">Decompilation</span>
+          <span className="tag">Reverse Engineering</span>
+          <span className="tag">RISC-V</span>
+          <span className="tag">Python</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        {/* Security Research Assistant */}
         <a 
               href="https://www.stjohns.edu/academics/schools/college-professional-studies" 
               target="_blank" 
@@ -29,16 +78,12 @@ export const Research = () => {
                 <div className="experience-header">
                   <div className="exp-title-group">
                     <span className="company-name">St. John's University</span>
-                    <h3>AI Security Research Assistant</h3>
+                    <h3>Security Research Assistant</h3>
                   </div>
                   <span className="exp-date">May 2025 – June 2026</span>
                 </div>
                 <p className="exp-description">
-                  Built a multi-component simulation system integrating three open-source frameworks (network
-                  emulation, traffic simulation, and cryptography) to generate a 500K+ sample labeled dataset
-                  across six network attack scenarios. Designed and evaluated a multi-model classification
-                  pipeline (Neural Network, Random Forest, XGBoost) achieving 0.968 AUC, significantly
-                  outperforming baseline detection methods.
+                  Built a post-quantum V2X handshake simulator (Mininet-WiFi, SUMO, Open Quantum Safe liboqs) executing real Kyber512 (ML-KEM) key exchanges, with five injected attack classes including GPS spoofing, entropy tampering, and key mismatch, producing a 500K+ labeled dataset. esigned and evaluated a multi-model detection pipeline (neural network, random forest, XGBoost) achieving 0.968 AUC, significantly outperforming baseline detection methods.
                 </p>
                 <div className="exp-tags">
                   <span className="tag">Neural Networks</span>
